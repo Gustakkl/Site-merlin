@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merlim UNLOCKER | Desbloqueio Profissional de Celulares</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0066cc, #004d99);
+            color: #fff;
+            padding: 25px 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .slogan {
+            font-style: italic;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        nav {
+            background-color: #004080;
+            padding: 12px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            width: 85%;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #0066cc;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+        .service {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .service h3 {
+            color: #0066cc;
+            margin-top: 0;
+        }
+        .price {
+            font-weight: 700;
+            color: #e74c3c;
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #ffcc00;
+            color: #333;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            padding: 25px;
+            background-color: #f0f7ff;
+            border-radius: 8px;
+        }
+        .contact a {
+            display: inline-block;
+            background: linear-gradient(135deg, #0066cc, #004d99);
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .contact a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .payment-methods {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .payment-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        .payment-icon {
+            width: 50px;
+            height: 30px;
+            object-fit: contain;
+        }
+        .crypton-icon {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+        footer {
+            background: linear-gradient(135deg, #004d99, #003366);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+        }
+        @media (max-width: 768px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+            nav a {
+                margin: 0 10px;
+                font-size: 14px;
+            }
+            .payment-icons {
+                gap: 15px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MERLIM UNLOCKER</div>
+        <div class="slogan">Soluções profissionais em desbloqueio de dispositivos</div>
+    </header>
+    <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#pagamentos">Pagamentos</a>
+        <a href="#contato">Contato</a>
+        <a href="#sobre">Sobre Nós</a>
+    </nav>
+    <div class="container">
+        <h2 id="servicos">Nossos Serviços de Desbloqueio</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Conta MI (Xiaomi) <span class="badge">Popular</span></h3>
+                <p>Remoção completa de conta Mi em dispositivos Xiaomi bloqueados.</p>
+                <p class="price">R$ 149,90</p>
+            </div>
+            <div class="service">
+                <h3>FRP (Google Account)</h3>
+                <p>Desbloqueio de proteção de fábrica em dispositivos Android.</p>
+                <p class="price">R$ 129,90</p>
+            </div>
+            <div class="service">
+                <h3>FRP via IMEI</h3>
+                <p>Solução remota para FRP sem necessidade de acesso físico.</p>
+                <p class="price">R$ 179,90</p>
+            </div>
+            <div class="service">
+                <h3>MDM PayJoy</h3>
+                <p>Remoção de bloqueio MDM em dispositivos financiados.</p>
+                <p class="price">R$ 199,90</p>
+            </div>
+            <div class="service">
+                <h3>iCloud (iPhone 6 ao X)</h3>
+                <p>Desbloqueio permanente de ativação iCloud em modelos antigos.</p>
+                <p class="price">R$ 299,90</p>
+            </div>
+            <div class="service">
+                <h3>iPhone XR ao 15 Pro Max</h3>
+                <p>Soluções avançadas para desbloqueio de iPhones recentes.</p>
+                <p class="price">R$ 399,90</p>
+            </div>
+            <div class="service">
+                <h3>Desbloqueio por IMEI</h3>
+                <p>Liberação permanente via código IMEI para todas as operadoras.</p>
+                <p class="price">R$ 99,90</p>
+            </div>
+            <div class="service">
+                <h3>Desbloqueio de Chip</h3>
+                <p>Remoção de bloqueio de operadora para uso com qualquer chip.</p>
+                <p class="price">R$ 79,90</p>
+            </div>
+        </div>
+
+        <div class="payment-methods" id="pagamentos">
+            <h2>Formas de Pagamento</h2>
+            <p>Aceitamos todas as formas de pagamento para sua comodidade:</p>
+            <div class="payment-icons">
+                <img src="https://logodownload.org/wp-content/uploads/2020/04/pix-logo.png" alt="Pix" class="payment-icon">
+                <i class="fab fa-cc-visa fa-2x" style="color: #1a1f71;"></i>
+                <i class="fab fa-cc-mastercard fa-2x" style="color: #eb001b;"></i>
+                <i class="fab fa-cc-amex fa-2x" style="color: #016fd0;"></i>
+                <i class="fas fa-barcode fa-2x" style="color: #0066cc;"></i>
+                <!-- Ícone Crypton Moedas -->
+                <img src="https://crypton.ws/wp-content/uploads/2021/12/crypton-logo.svg" alt="Crypton" class="crypton-icon" style="width: 50px; height: 50px;">
+            </div>
+            <p>Pagamentos via PIX ou Crypton têm 5% de desconto!</p>
+        </div>
+
+        <div class="contact" id="contato">
+            <h2>Entre em Contato</h2>
+            <p><i class="fas fa-phone-alt"></i> WhatsApp: (33) 98825-2058</p>
+            <p><i class="fas fa-envelope"></i> Email: contato@merlimunlocker.com.br</p>
+            <p><i class="fas fa-clock"></i> Horário de atendimento: 9h às 18h (seg a sab)</p>
+            <a href="https://wa.me/5533988252058" target="_blank">
+                <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <a href="https://wa.me/5533988252058" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p>&copy; 2024 Merlim UNLOCKER - Todos os direitos reservados.</p>
+        <p>CNPJ: XX.XXX.XXX/0001-XX</p>
+    </footer>
+</body>
+</html>
